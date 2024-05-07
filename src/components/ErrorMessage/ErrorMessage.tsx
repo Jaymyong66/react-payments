@@ -6,7 +6,5 @@ interface Props {
 }
 
 export default function ErrorMessage({ message }: Props) {
-  useEffect(() => {}, [message]);
-
   return <S.ErrorMessage>{message}</S.ErrorMessage>;
 }
